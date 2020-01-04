@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Timed Coding Quiz!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="score-header">
+            <button id="score">View High Scores</button>
+            <div id="scores-ranking"></div>
+            <div class="scores-btn">
+        </div>
+        <div id="directions">Directions: Answer the following code questions within the time limit. WARNING! An incorrect answer will take 10 seconds off your score time!</div>
+    </header>
+    <div class="container">
+        <div id="start" type="submit">Start Quiz!</div>
+        <div id="quiz">
+            <p id="question"></p>
+ 
+            <div class="choices">
+                <button id="choice">A?</button>
+                <button id="choice">B?</button>
+                <button id="choice">C?</button> 
+            </div>
+        </div>
+        <div id="scoreContainer">
+            <div class="time">
+                <span>Time: </span>    
+                <span id="time-number">0</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="result">
+            <p id="your-score">Your final score is 
+                <span id="score">0</span>
+            </p>
+            <input id="initials" type="text" value="" placeholder="Your Initials">
+            <button id="submitBtn" type="submit">Submit</button>
+        </div>    
+    </footer>
+    <script src="questions.js"></script>
+</body>
+</html>
