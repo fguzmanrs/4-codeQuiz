@@ -2,45 +2,37 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Timed Coding Quiz!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>Timed Coding Quiz!</title>
 </head>
 <body>
-    <header>
-        <div id="score-header">
-            <button id="score">View High Scores</button>
-            <div id="scores-ranking"></div>
-            <div class="scores-btn">
-        </div>
-        <div id="directions">Directions: Answer the following code questions within the time limit. WARNING! An incorrect answer will take 10 seconds off your score time!</div>
-    </header>
     <div class="container">
-        <div id="start" type="submit">Start Quiz!</div>
-        <div id="quiz">
-            <p id="question"></p>
- 
-            <div class="choices">
-                <button id="choice">A</button>
-                <button id="choice">B</button>
-                <button id="choice">C</button> 
-            </div>
+        <div class="splashPage">
+            <h1>Coding Quiz</h1>
+            <p>Answer all the coding questions within the time limit. Warning! An incorrect answer will penalize you by 10 seconds.</p>
         </div>
-        <div id="scoreContainer">
-            <div class="time">
-                <span>Time: </span>    
-                <span id="time-number">0</span>
-            </div>
+        <div class="score">
+            <h1>All Done!</h1>
+            <p class="highScore"></p>
+            Enter Initials:<input type="text" name="enter initials" id="initials">
+            <button id="submit">Submit</button>
         </div>
+        <div class="highScorePage">
+            <form id="scoreForm" method="POST">
+                <h1>High Scores</h1>
+                <ul id="scoreList"></ul>
+            </form>
+            <button id="goBack">Go Back</button>
+        </div>
+        <button id="startQuiz">Start Quiz</button>
+        <main class="questionsRendered"></main>
     </div>
-    <footer>
-        <div id="result">
-            <p id="your-score">Your final score is 
-                <span id="score">0</span>
-            </p>
-            <input id="initials" type="text" value="" placeholder="Your Initials">
-            <button id="submitBtn" type="submit">Submit</button>
-        </div>    
-    </footer>
-    <script src="questions.js"></script>
+    <h3 class="time"></h3>
+
+    <script src=questions.js></script>
+    <script src=script.js></script>
 </body>
 </html>
