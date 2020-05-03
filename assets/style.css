@@ -1,83 +1,44 @@
-body{
-    font-size: 20px;
-    font-family: monospace;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:200,400,500&display=swap');
 .container{
-    position: relative;
-    width: 700px;
-    height: 300px;
-    margin : 20px auto;
+    background-color:white;
     border-radius: 5px;
-    background-color: #2EC4B6;
-    box-shadow: 1px 1px 15px 0px;
+    margin-top: 50px;
+    padding: 20px;
 }
-
-#start{
-    position: absolute;
-    width: 100px;
-    height: 150px;
-    top: 50px;
-    left: 300px;
+h1{
+    font-family: 'Abril Fatface', cursive;  
+    padding-bottom: 10px; 
+    text-align: center; 
+    color: slategray;
+}
+h2{
+    text-align: center; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     text-align: center;
-    border: 2px solid #011627;
-    font-size: 1.5em;
-    font-weight: bolder;
-    word-break: break-all;
-    background-color: #E71D36;
-    color: #011627; 
-    cursor: pointer ;
 }
-#start:hover{
-    border: 5px solid #fdfffc;
-    color: #fdfffc;
-}
-
-#question p{
-    margin: 0;
-    padding: 15px;
-    font-size: 1.25em;
-}
-
-.choices{
-    position: absolute;
-    padding: 10px;
-    width: 500px;
-    bottom: 50px;
-    right: 0; 
-}
-
-#choice{
-    display: inline-block;
-    padding: 5px;
-    width: 100px;
-    border: 1px solid;
+button{
+    display: block;
     border-radius: 5px;
-    text-align: center;
-    background-color: #fdfffc; 
-    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
-
-#choice:hover{
-    border: 5px solid #FF9F1C;
+button:hover {
+    background-color: lightblue;
+}
+button:focus {
+    outline:none;
+}
+.time{
+    text-align: center;
+    color: lightgray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     font-weight: bold;
-}
-
-#timer{
-    position: absolute;
-    width: 200px;
-    height: 100px;
-    bottom: 0px;
-    text-align: center;
-}
-
-#scoreContainer{
-    position: relative;
-    width: 700px;
-    height: 300px;
-    margin: 20px auto;
-    border-radius: 5px;
-    box-shadow: 0px 5px 15px 0px;
-    background-color: white;
-    display: none;
 }
