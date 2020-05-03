@@ -1,38 +1,3 @@
-// user arrives at the landing page
-    // presented with a prompt to "Start Quiz"
-    // navigation option available to "View Highscores"
-    // "Time" value set at 0
-// User clicks the "Start Quiz" button
-    // timer is initialized
-        // timer given value
-        // timer begins countdown
-        // display quiz instantly
-    // Display quiz questions  
-        // user presented with a series of questions (5)
-            // for each question store list of answer choices
-        //user presented with multiple choice buttons
-        //user selects answer
-            // Keep track of user's score
-                //for each question find selected answer
-                    // If quick and correct answer 
-                        // user gets a higher score
-                    // If incorrect answer
-                        // user gets a time penalty (ex, 15 seconds are subtracted from time remaining)
-                    // If incomplete user input
-                        // ?Can they skip the question and just miss out on the opportunity for points?
-            // add this question and its answer to the output
-        //hide previous question
-        //show new question
-    // If timer reaches 0 or all questions are answered then game ends
-        // user is presented with their final score
-        // user is asked to enter their initials
-// Game ends
-    //user given final score
-        // Score is calculated by time remaining 
-    //user prompted to input initials
-    //User input stored in localStorage
-//AC
-
 var secondsLeft = 76;
 var timerInterval;
 
