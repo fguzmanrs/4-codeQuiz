@@ -26,7 +26,7 @@ so that I can gauge my progress compared to my peers
 
 ![Code Quiz Demo](assets/4-codeQuizDemo.gif)
 
-Try it out at: ![Code Quiz] https://fguzmanrs.github.io/4-codeQuiz/
+Try it out at: https://fguzmanrs.github.io/4-codeQuiz/
 
 ## Future version to include: 
 
