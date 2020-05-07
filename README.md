@@ -1,16 +1,11 @@
 # Code Quiz
 
-These assessments are typically a combination of multiple-choice questions and interactive challenges. In this homework assignment, your challenge is to build a code quiz with multiple-choice questions.
-
-
-## Instructions
-
-This is a timer-based code quiz application with multiple-choice questions that stores high scores client-side. 
+This application is a timer-based code quiz application with multiple-choice questions that stores high scores client-side. 
 
 ## User Story
-As a coding bootcamp student
-I want to take a timed quiz on JavaScript fundamentals that stores high scores
-so that I can gauge my progress compared to my peers
+AS A coding bootcamp student
+I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
+SO THAT I can gauge my progress compared to my peers
 
 ## Play proceeds as follows:
 
