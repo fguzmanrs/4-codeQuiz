@@ -24,6 +24,10 @@ so that I can gauge my progress compared to my peers
 
 * Refer to the GIF below for an app demo.
 
+![Code Quiz Demo](assets/4-codeQuizDemo.gif)
+
+Try it out at: ![Code Quiz](https://fguzmanrs.github.io/4-codeQuiz/)
+
 ## Future version to include: 
 
 * audio files to alert the user of correct/incorrect answers
