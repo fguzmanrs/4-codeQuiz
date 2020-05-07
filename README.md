@@ -26,7 +26,7 @@ so that I can gauge my progress compared to my peers
 
 ![alt text][logo]
 
-[logo]: assets\4-codeQuiz-GIF.gif "Code Quiz Demo"
+[logo]: (4-codeQuiz-GIF.gif "Code Quiz Demo")
 
 ## Future version to include: 
 
