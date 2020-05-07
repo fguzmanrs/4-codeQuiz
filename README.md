@@ -24,9 +24,9 @@ so that I can gauge my progress compared to my peers
 
 * Refer to the GIF below for an app demo.
 
-![alt text][logo]
+![Code Quiz Demo][logo]
 
-[logo]: (4-codeQuiz-GIF.gif "Code Quiz Demo")
+[logo]: 4-codeQuiz-GIF.gif
 
 ## Future version to include: 
 
